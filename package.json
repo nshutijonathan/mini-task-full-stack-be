@@ -1,0 +1,31 @@
+{
+  "name": "mini-task-full-stack-be",
+  "version": "1.0.0",
+  "description": "Back-end services for firebase application",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon server/server.js",
+    "start":"node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nshutijonathan/mini-task-full-stack-be.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nshutijonathan/mini-task-full-stack-be/issues"
+  },
+  "homepage": "https://github.com/nshutijonathan/mini-task-full-stack-be#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "firebase": "^9.14.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.20"
+  }
+}
